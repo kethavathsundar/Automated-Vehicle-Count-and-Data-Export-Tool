@@ -36,7 +36,7 @@ pip install streamlit opencv-python cvzone ultralytics pandas openpyxl sort
 ```
 ## Setup Instructions
 ** Step 1**: Prepare YOLO Weights
-   Download the pre-trained YOLOv8 weights file (e.g., yolov8n.pt) from Ultralytics YOLO repository and place it in the directory ../Yolo_weights/
+Download the pre-trained YOLOv8 weights file (e.g., yolov8n.pt) from Ultralytics YOLO repository and place it in the directory ../Yolo_weights/
 ** Step 2**:Prepare Mask Image (Optional)
 If you want to apply a region-of-interest mask, ensure you have a mask1.jpg image in the project directory. The mask will restrict vehicle detection to a specific area in the video.
 
@@ -57,9 +57,9 @@ Once the video is processed:
 2. ou can download the vehicle data in either CSV or Excel format by clicking the respective download buttons.
 
 ## Video Processing Details
-The application uses YOLOv8 to detect vehicles in the video frames.
-The SORT algorithm is used to track vehicles and maintain unique IDs for each detected vehicle.
-A predefined line is set in the video, and when a vehicle crosses this line, it's counted and recorded.
+-The application uses YOLOv8 to detect vehicles in the video frames.
+-The SORT algorithm is used to track vehicles and maintain unique IDs for each detected vehicle.
+-A predefined line is set in the video, and when a vehicle crosses this line, it's counted and recorded.
 
 ##Project Structure
 ```
